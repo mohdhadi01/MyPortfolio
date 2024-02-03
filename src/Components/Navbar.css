@@ -1,0 +1,53 @@
+.mainbox {
+  width: 100vw;
+}
+.nav {
+  background: none;
+  box-shadow: 0 0 25px -5px black;
+  border-bottom: solid rgba(255, 255, 255, 0.425) 1px;
+  border-left: solid rgba(255, 255, 255, 0.228) 0.1px;
+  border-right: solid rgba(255, 255, 255, 0.256) 0.1px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: fixed;
+  /* width: 70vw; */
+  width: 800px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 80px;
+  color: white;
+}
+
+.rightmenu {
+  gap: 36px;
+}
+.Navtoggle {
+  background: none;
+}
+.logo {
+  height: 80px;
+  filter: contrast(150%);
+  filter: drop-shadow(0px 4px 6px rgb(0, 0, 0));
+}
+
+.selected {
+  background-color: rgb(230, 228, 228);
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 10px;
+  color: #ff2306;
+  box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.897);
+}
+.selected :hover {
+  box-shadow: 0px 0px 0px rgb(255, 255, 255);
+}
+@media screen and (max-width: 800px) {
+  .nav {
+    width: 100vw;
+  }
+  .rightmenu {
+    gap: 24px;
+  }
+}

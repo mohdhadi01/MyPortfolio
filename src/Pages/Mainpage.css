@@ -3,16 +3,25 @@ body {
   padding: 0;
   box-sizing: border-box;
   line-height: normal;
+  overflow-x: hidden;
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 23 31 / var(--tw-bg-opacity));
 }
-.background {
+/* .background {
   z-index: -10;
   height: 100vh;
   width: 100vw;
   --tw-bg-opacity: 1;
   background-color: rgb(0 23 31 / var(--tw-bg-opacity));
   background-repeat: repeat;
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+} */
+.ShowBox {
+  width: 800px;
+  margin-top: 80px;
 }
-
 .main-gradient {
   background-image: linear-gradient(
     500deg,
@@ -23,11 +32,14 @@ body {
     #3b94a5,
     #dc4f1c
   );
-  width: 300px;
   position: absolute;
   height: 300px;
   width: 300px;
   border-radius: 9999px;
   filter: blur(120px);
   -webkit-filter: blur(120px);
+}
+.screenSize {
+  position: relative;
+  width: 800px;
 }

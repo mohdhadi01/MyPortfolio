@@ -1,21 +1,27 @@
 import React from 'react'
 import "../Pages/Mainpage.css"
 import NavBar from '../Components/Navbar'
-function Mainpage() {
-    return (
-        <div>
-            <div className='background' style={{ position: "absolute" }}>
-                {/* <div class="main-gradient left-0 top-1/2 opacity-100  dark:opacity-0"></div> */}
-                {/* <div class="main-gradient left-0 top-0 opacity-100  dark:opacity-0 "></div> */}
-                <div class="main-gradient left-0 bottom-0 "></div>
-                <div class="main-gradient right-0 top-10"></div>
-            </div>
+import Hero from '../Components/Hero'
+import About from './About'
+import Skills from './Skills'
+import Projects from './Projects'
+import Footer from '../Components/Footer'
 
-            <NavBar />
+function Mainpage() {
+    return (<>
+        <div className='MainContainer flex justify-center'>
+            <div className="ShowBox">
+                <NavBar />
+                <Hero />
+                <About />
+                <Skills/>
+                <Projects/>
+                <Footer/>
+            </div>
 
 
         </div>
-    )
+    </>)
 }
 
 export default Mainpage

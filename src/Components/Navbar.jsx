@@ -4,7 +4,7 @@ import Logo from "../Assets/myLogo.png";
 import "./Navbar.css"
 function NavBar() {
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-    const [selectedMenu, setSelectedMenu] = React.useState("Home")
+    const [selectedMenu, setSelectedMenu] = React.useState("Home");
     const menuItems = [
         "Home",
         "About",

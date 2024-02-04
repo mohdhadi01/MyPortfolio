@@ -40,5 +40,6 @@ body {
   .ShowBox {
     width: 100vw;
     margin-top: 80px;
+    overflow-x: hidden;
   }
 }

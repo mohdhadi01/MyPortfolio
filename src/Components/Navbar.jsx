@@ -1,15 +1,16 @@
 import React from 'react'
-import { Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenuItem, NavbarMenu, NavbarContent, NavbarItem, Link, Button } from "@nextui-org/react";
+import { Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenuItem, NavbarMenu, NavbarContent, NavbarItem, Button } from "@nextui-org/react";
 import Logo from "../Assets/myLogo.png";
+import { Link } from "react-scroll";
 import "./Navbar.css"
 function NavBar() {
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
     const [selectedMenu, setSelectedMenu] = React.useState("Home");
     const menuItems = [
         "Home",
-        "About",
         "Skills",
         "Projects",
+        "About",
         "Links",
     ];
     const handleMenuItemClick = (item) => {
@@ -39,9 +40,12 @@ function NavBar() {
                     <div className="rightmenu flex  ">
                         {menuItems.map((item, index) => (
                             <Link
-                                className="w-full text-white"
-                                href="#"
-                                size="lg"
+                                key={item}
+                                to={item.toLowerCase()}
+                                spy={true}
+                                smooth={true}
+                                duration={500}
+                                className={`w-full text-white`}
                             >
                                 <h1
                                     key={item}

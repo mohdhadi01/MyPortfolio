@@ -1,0 +1,27 @@
+.featuredLinks {
+  width: 100%;
+  justify-content: center;
+  column-gap: 20px;
+  display: grid;
+  color: white;
+}
+.LinkBox {
+  height: 55px;
+  width: 400px;
+  border: 1px solid rgb(61, 60, 60);
+  border-radius: 15px;
+  padding: 14px;
+  background-color: rgba(255, 255, 255, 0.041);
+  transition: 0.4s;
+}
+.LinkBox:hover {
+  box-shadow: 0px 1px 2px rgba(8, 6, 0, 0.5), 0px 2px 4px rgba(0, 0, 0, 0.5),
+    0px 4px 8px rgba(0, 0, 0, 0.5), 0px 8px 16px rgba(8, 4, 0, 0.5);
+  border-radius: 15px;
+  background-color: rgba(165, 42, 42, 0.082);
+  transform: scale(1.05);
+}
+.linkArrow {
+  position: relative;
+  margin-left: auto;
+}

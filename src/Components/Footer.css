@@ -1,3 +1,19 @@
-Footer {
-  height: 300px;
+.footer {
+  margin-top: 50px;
+  height: 340px;
+  background-color: hsla(0, 0%, 99%, 0.059);
+  padding: 40px;
+}
+.Logo {
+  filter: contrast(150%);
+}
+.SocialIconss {
+  transition: 0.4s;
+}
+.SocialIconss:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.NameCredit {
+  text-align: center;
 }

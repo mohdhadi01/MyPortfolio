@@ -13,7 +13,7 @@ import Tailwind from "../Assets/Skills/icons8-tailwindcss-96.png"
 
 function Skills() {
     return (<>
-        <div className='SkillsPage'>
+        <div name="skills" className='SkillsPage'>
             <div className="screenSize">
                 <div class="main-gradient left-0 top-80"></div>
                 <div class="main-gradient right-0 top-5"></div>

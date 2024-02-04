@@ -4,7 +4,7 @@ import aboutImg from "../Assets/abouttt.png"
 
 function About() {
     return (
-        <div className='AboutPage'>
+        <div name="about" className='AboutPage'>
             <div className="screenSize">
                 <div class="main-gradient left-0 top-80"></div>
                 <div class="main-gradient right-0 top-10"></div>
@@ -29,7 +29,7 @@ function About() {
                         <svg stroke="#ce6629f5" fill="#ce6629f5" stroke-width="0" viewBox="0 0 20 20" aria-hidden="true" class="text-xl text-secondary" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
                         hadi.88923@gmail.com
                     </p>
-                    <div className="Resume text-center cursor-pointer text-medium">Hire Me</div>
+                    <a href="mailto: hadi.88923@gmail.com"><div className="Resume text-center cursor-pointer text-medium">Hire Me</div></a>
                 </div>
             </div>
         </div>

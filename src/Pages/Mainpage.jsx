@@ -5,7 +5,9 @@ import Hero from '../Components/Hero'
 import About from './About'
 import Skills from './Skills'
 import Projects from './Projects'
-import Footer from '../Components/Footer'
+import Myfooter from '../Components/Footer'
+import Links from './Links'
+
 
 function Mainpage() {
     return (<>
@@ -13,10 +15,13 @@ function Mainpage() {
             <div className="ShowBox">
                 <NavBar />
                 <Hero />
+                <Skills />
+                <Projects />
                 <About />
-                <Skills/>
-                <Projects/>
-                <Footer/>
+                <Links/>
+                <Myfooter />
+                
+                
             </div>
 
 

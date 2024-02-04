@@ -58,7 +58,7 @@
 }
 @media screen and (max-width: 450px) {
   .project {
-    width: 300px;
+    width: 320px;
     height: 460px;
   }
   .projectImg {

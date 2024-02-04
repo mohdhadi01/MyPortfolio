@@ -26,16 +26,16 @@ function Links() {
 
                         <h2 className='featproject my-5 text-pretty font-semibold  text-slate-600 text-center'>FEATURED PROJECT</h2>
                         <a href="https://cinema-trix.vercel.app/home"><div className="LinkBox my-3 flex align-middle">
-                            <h3 className='Linkedin flex gap-2 font-semibold'> <img src={CinematrixIcon} alt="" /> CinemaTrix</h3><MoveUpRight className='linkArrow w-4 flex' />
+                            <h3 className='Linkedin flex gap-2 font-semibold'> <img className='LinkIconImg' src={CinematrixIcon} alt="" /> CinemaTrix</h3><MoveUpRight className='linkArrow w-4 flex' />
                         </div></a>
                         <a href="https://news-chron.vercel.app/Home"><div className="LinkBox my-3 flex align-middle">
-                            <h3 className='Linkedin flex gap-2 font-semibold'><img src={NewsChronIcon} alt="" />News-Chron</h3><MoveUpRight className='linkArrow w-4 flex' />
+                            <h3 className='Linkedin flex gap-2 font-semibold'><img className='LinkIconImg' src={NewsChronIcon} alt="" />News-Chron</h3><MoveUpRight className='linkArrow w-4 flex' />
                         </div></a>
                         <a href="https://notes-reactapp.vercel.app/"><div className="LinkBox my-3 flex align-middle">
                             <h3 className='Linkedin flex gap-2 font-semibold'><NotebookText /> Notes</h3><MoveUpRight className='linkArrow w-4 flex' />
                         </div></a>
                         <a href="https://livetranslator.vercel.app/"><div className="LinkBox my-3 flex align-middle">
-                            <h3 className='Linkedin flex gap-2 font-semibold'><img src={LiveTransIcon} alt="" />LiveLanguageTranslator</h3><MoveUpRight className='linkArrow w-4 flex' />
+                            <h3 className='Linkedin flex gap-2 font-semibold'><img className='LinkIconImg' src={LiveTransIcon} alt="" />LiveLanguageTranslator</h3><MoveUpRight className='linkArrow w-4 flex' />
                         </div></a>
 
                         <h2 className='SocialLinks my-5 text-pretty font-semibold  text-slate-600 text-center'>SOCIAL LINKS</h2>

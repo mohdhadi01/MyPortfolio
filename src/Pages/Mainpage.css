@@ -7,6 +7,8 @@ body {
   --tw-bg-opacity: 1;
   background-color: rgb(0 23 31 / var(--tw-bg-opacity));
   color-scheme: dark;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .ShowBox {

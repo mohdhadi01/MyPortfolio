@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenuItem, NavbarMenu, NavbarContent, NavbarItem, Button } from "@nextui-org/react";
+import { Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenuItem, NavbarMenu, NavbarContent } from "@nextui-org/react";
 import Logo from "../Assets/myLogo.png";
 import { Link } from "react-scroll";
 import "./Navbar.css"
@@ -60,13 +60,16 @@ function NavBar() {
 
 
 
-                <NavbarMenu>
+                <NavbarMenu className={isMenuOpen ? 'open-menu' : ''}>
                     {menuItems.map((item, index) => (
-                        <NavbarMenuItem key={`${item}-${index}`}>
+                        <NavbarMenuItem className='OptionOpenNav font-bold cursor-pointer' key={`${item}-${index}`}>
                             <Link
-                                className="w-full"
-                                href="#"
-                                size="lg"
+                                key={item}
+                                to={item.toLowerCase()}
+                                spy={true}
+                                smooth={true}
+                                duration={500}
+                                className={`w-full text-white`}
                             >
                                 {item}
                             </Link>

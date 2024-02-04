@@ -43,3 +43,44 @@
   filter: blur(150px);
   -webkit-filter: blur(150px);
 }
+
+@media screen and (max-width: 850px) {
+  .Myprojects {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+  }
+  .Projectname {
+    margin-bottom: 80px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .project {
+    width: 300px;
+    height: 460px;
+  }
+  .projectImg {
+    width: 100%;
+    height: 230px;
+    border-radius: 15px;
+  }
+  .Hr {
+    margin-left: 55px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .Heading {
+    margin-top: -10px;
+  }
+  .Projectname {
+    margin-bottom: 50px;
+  }
+  .main-gradient1 {
+    height: 120px;
+    width: 120px;
+    filter: blur(150px);
+    -webkit-filter: blur(150px);
+  }
+}

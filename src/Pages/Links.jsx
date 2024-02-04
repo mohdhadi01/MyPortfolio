@@ -14,13 +14,13 @@ function Links() {
                     <div class="main-gradient right-0 top-10"></div>
                     <div class="main-gradient right-0 top-unit-9xl"></div>
                 </div>
-                <h1 className='gradientText text-4xl text-center font-medium my-unit-3xl'>Links</h1>
+                <h1 className='gradientText LinkHeading text-4xl text-center font-medium my-unit-3xl'>Links</h1>
 
                 <div className="linkContainer">
 
                     <div className="featuredLinks">
                         <h2 className='KnowMore my-5 text-pretty font-semibold  text-slate-600 text-center'>KNOW MORE ABOUT ME</h2>
-                        <a href=""><div className="LinkBox my-3 flex align-middle">
+                        <a href="mohdhadi.vercel.app"><div className="LinkBox my-3 flex align-middle">
                             <h3 className='MyProfile flex gap-2 font-semibold'><UserSearchIcon /> mohdhadi</h3> <MoveUpRight className='linkArrow w-4 flex' />
                         </div></a>
 

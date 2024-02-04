@@ -18,21 +18,21 @@ function Skills() {
                 <div class="main-gradient left-0 top-80"></div>
                 <div class="main-gradient right-0 top-5"></div>
             </div>
-            <h1 className='gradientText text-4xl text-center font-medium my-unit-4xl'>Skills</h1>
+            <h1 className='gradientText SkillHeading text-4xl text-center font-medium my-unit-4xl'>Skills</h1>
             <div className="skillContainer">
                 <div className="Line1 flex justify-around">
                     <div className="SkillIcons flex flex-col"><img className='Icon' src={HtmlIcon} alt="" />HTML</div>
                     <div className="SkillIcons flex flex-col"><img className='Icon' src={CssIcon} alt="" />CSS</div>
                     <div className="SkillIcons flex flex-col"> <img className='Icon' src={ReactIcon} alt="" />React</div>
-                    <div className="SkillIcons flex flex-col"> <img className='Icon' src={Redux} alt="" />Redux</div>
-                    <div className="SkillIcons flex flex-col"> <img className='Icon' src={JSIcon} alt="" />Javascript</div>
+                    <div className="SkillIcons MidLine-1a flex flex-col"> <img className='Icon' src={Redux} alt="" />Redux</div>
+                    <div className="SkillIcons MidLine-1b flex flex-col"> <img className='Icon' src={JSIcon} alt="" />Javascript</div>
                 </div>
                 <div className="Line2 flex justify-center gap-8 my-11">
                     <div className="SkillIcons flex flex-col"><img className='Icon' src={Tailwind} alt="" />Tailwind</div>
                     <div className="SkillIcons flex flex-col"><img className='Icon' src={Github} alt="" />Github</div>
                     <div className="SkillIcons flex flex-col"><img className='Icon' src={photoshop} alt="" />Photoshop</div>
-                    <div className="SkillIcons flex flex-col"><img className='Icon' src={Java} alt="" />Java</div>
-                    <div className="SkillIcons flex flex-col"><img className='Icon' src={Python} alt="" />Python</div>
+                    <div className="SkillIcons MidLine-1a flex flex-col"><img className='Icon' src={Java} alt="" />Java</div>
+                    <div className="SkillIcons MidLine-1b flex flex-col"><img className='Icon' src={Python} alt="" />Python</div>
                 </div>
 
             </div>

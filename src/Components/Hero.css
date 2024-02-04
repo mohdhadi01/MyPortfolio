@@ -102,3 +102,72 @@
     0px 4px 8px rgba(0, 0, 0, 0.258), 0px 8px 16px rgba(8, 4, 0, 0.422);
   cursor: pointer;
 }
+@media screen and (max-width: 720px) {
+  .myImage {
+    margin-top: 120px;
+    margin-left: -20px;
+    width: 250px;
+    border-radius: 20px;
+  }
+  .Arrow {
+    height: 70px;
+    margin-top: -90px;
+    margin-left: -70px;
+  }
+  .main-gradient {
+    height: 240px;
+    width: 240px;
+    filter: blur(130px);
+    -webkit-filter: blur(130px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Hero {
+    margin-top: -40px;
+  }
+  .helloText {
+    font-size: 0.9rem;
+    margin-bottom: -10px;
+  }
+  .Name {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .frontendDev {
+    font-size: 2.1rem;
+    font-weight: 600;
+  }
+  .para {
+    font-size: 0.7rem;
+  }
+  .Resume {
+    width: 120px;
+    height: 45px;
+    font-size: 0.9rem;
+  }
+  .HireMe {
+    width: 120px;
+    height: 45px;
+    font-size: 0.9rem;
+  }
+  .Arrow {
+    height: 50px;
+    margin-top: -50px;
+    margin-left: -20px;
+  }
+  .Socials {
+    width: 310px;
+  }
+  .SocialIcons {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+  }
+  .main-gradient {
+    height: 210px;
+    width: 210px;
+    filter: blur(130px);
+    -webkit-filter: blur(130px);
+  }
+}

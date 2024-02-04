@@ -12,3 +12,44 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
+@media screen and (max-width: 720px) {
+  .AboutImg {
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 50px;
+  }
+  .AboutText {
+    margin-right: 10px;
+    width: 280px;
+    font-size: 0.8rem;
+  }
+  .aboutme {
+    font-size: 0.75rem;
+  }
+  .contactDetail {
+    gap: 15px;
+  }
+  .AboutHeading {
+    margin-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .AboutImg {
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 50px;
+  }
+  .AboutText {
+    margin-right: 10px;
+    width: 223px;
+    font-size: 0.8rem;
+  }
+  .AboutHeading {
+    margin-bottom: 60px;
+  }
+  .aboutme {
+    font-size: 0.65rem;
+  }
+}

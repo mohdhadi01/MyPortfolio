@@ -12,10 +12,10 @@ function Hero() {
         </div>
         <div name="home" className='Hero'>
             <div className="Desc">
-                <h3 className='gradientText font-semibold text-lg my-1'>Hello There !</h3>
+                <h3 className='gradientText helloText font-semibold text-lg my-1'>Hello There !</h3>
                 <h2 className='Name text-3xl '>I'm Mohd Hadi</h2>
-                <h1 className='gradientText text-5xl font-medium'>Frontend Developer</h1>
-                <h4 className='para text-sm'>I like building new things and creating impressive designs and develop them into code .I worked on Many projects as a developer using most recent Technologies.</h4>
+                <h1 className='gradientText frontendDev text-5xl font-medium'>Frontend Developer</h1>
+                <h4 className='para text-sm'>I like building new things and turn visions into vibrant code as a frontend wizard. I worked on Many projects as a developer using most recent Technologies.</h4>
             </div>
             <div className="Image">
                 <img src={profileImg} className='myImage' alt="" />

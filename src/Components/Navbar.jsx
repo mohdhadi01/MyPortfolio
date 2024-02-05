@@ -2,7 +2,8 @@ import React from 'react'
 import { Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenuItem, NavbarMenu, NavbarContent } from "@nextui-org/react";
 import Logo from "../Assets/myLogo.png";
 import { Link } from "react-scroll";
-import "./Navbar.css"
+import "./Navbar.css";
+
 function NavBar() {
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
     const [selectedMenu, setSelectedMenu] = React.useState("Home");

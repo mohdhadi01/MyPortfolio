@@ -3,8 +3,10 @@ import "./Hero.css"
 import profileImg from "../Assets/edited_dp-ast6yqVUK-transformed.png"
 import Arrow from "../Assets/arrow.png"
 import Twitter from "../Assets/twitter (2).png"
+import { motion } from 'framer-motion';
 
 function Hero() {
+
     return (<>
         <div className="screenSize">
             <div class="main-gradient left-0 bottom-full"></div>
@@ -12,14 +14,39 @@ function Hero() {
         </div>
         <div name="home" className='Hero'>
             <div className="Desc">
-                <h3 className='gradientText helloText font-semibold text-lg my-1'>Hello There !</h3>
-                <h2 className='Name text-3xl '>I'm Mohd Hadi</h2>
-                <h1 className='gradientText frontendDev text-5xl font-medium'>Frontend Developer</h1>
-                <h4 className='para text-sm'>I like building new things and turn visions into vibrant code as a frontend wizard. I worked on Many projects as a developer using most recent Technologies.</h4>
+                <motion.h3
+                    initial={{ x: '-1000' }}
+                    animate={{ x: 0 }}
+                    transition={{ delay: 0.1 }}
+                    className='gradientText helloText font-semibold text-lg my-1'>Hello There !</motion.h3>
+                <motion.h2
+                    initial={{ x: '-1000' }}
+                    animate={{ x: 0 }}
+                    transition={{ delay: 0.2 }}
+                    className='Name text-3xl '>I'm Mohd Hadi</motion.h2>
+                <motion.h2
+                    initial={{ x: '-1000' }}
+                    animate={{ x: 0 }}
+                    transition={{ delay: 0.3 }}
+                    className='gradientText frontendDev text-5xl font-medium'>Frontend Developer</motion.h2>
+                <motion.h2
+                    initial={{ x: '-1000' }}
+                    animate={{ x: 0 }}
+                    transition={{ delay: 0.4 }}
+                    className='para text-sm'>I like building new things and turn visions into vibrant code as a frontend wizard. I worked on Many projects as a developer using most recent Technologies.</motion.h2>
             </div>
-            <div className="Image">
+            <motion.div
+                initial={{ rotate: 180, scale: 0 }}
+                animate={{ rotate: 0, scale: 1 }}
+                transition={{
+                    type: "spring",
+                    stiffness: 260,
+                    damping: 20,
+                    delay: 0.6
+                }}
+                className="Image">
                 <img src={profileImg} className='myImage' alt="" />
-            </div>
+            </motion.div>
 
         </div>
         <div className="buttons">

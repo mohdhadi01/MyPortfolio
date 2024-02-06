@@ -9,13 +9,14 @@
   border-right: solid rgba(255, 255, 255, 0.256) 0.1px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  position: fixed;
-  /* width: 70vw; */
+  position: fixed;  
   width: 800px;
   left: 50%;
   transform: translateX(-50%);
   height: 80px;
   color: white;
+  z-index:99999;
+  
 }
 
 .rightmenu {

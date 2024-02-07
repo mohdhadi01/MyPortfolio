@@ -1,6 +1,10 @@
 .SkillsPage {
   color: white;
 }
+.skillContainer {
+  position: relative;
+  z-index: 999;
+}
 .SkillIcons {
   height: 100px;
   width: 100px;

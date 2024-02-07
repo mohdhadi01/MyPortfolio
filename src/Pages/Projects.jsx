@@ -24,8 +24,8 @@ function Projects() {
                         <hr className='Hr my-5 w-40 mx-20' />
                         <p className='ProjectDesc  text-gray-400 text-xs'>Built CinemaTrix WebApp with React, TMDb API integration, and Ant Design for engaging movie exploration. Emphasized clean code and collaboration.</p>
                         <div className="linktoProject flex justify-center gap-3 cursor-pointer">
-                            <a href="https://github.com/mohdhadi01/CinemaTrix"><img className='GitLink w-10 my-4 cursor-pointer' src={Github} alt="" /></a>
-                            <a href="https://cinema-trix.vercel.app/home"><img className='LinkImg w-10 my-4 cursor-pointer' src={LinkImg} alt="" /></a>
+                            <a href="https://github.com/mohdhadi01/CinemaTrix" target="_blank" rel="noopener noreferrer"><img className='GitLink w-10 my-4 cursor-pointer' src={Github} alt="" /></a>
+                            <a href="https://cinema-trix.vercel.app/home/" target="_blank" rel="noopener noreferrer"><img className='LinkImg w-10 my-4 cursor-pointer' src={LinkImg} alt="" /></a>
                         </div>
                     </div>
                 </div>
@@ -37,8 +37,8 @@ function Projects() {
                         <hr className='Hr my-5 w-40 mx-20' />
                         <p className='ProjectDesc text-gray-400 text-xs'>Crafted a dynamic React NewsWebApp using Newsdata API for real-time news, enabling user-friendly browsing, searching, and filtering. Intuitive interface design.</p>
                         <div className="linktoProject flex justify-center gap-3">
-                            <a href="https://github.com/mohdhadi01/NEWS-CHRON-Production-Version"><img className='GitLink w-10 my-4 cursor-pointer' src={Github} alt="" /></a>
-                            <a href="https://news-chron.vercel.app/Home"><img className='LinkImg w-10 my-4 cursor-pointer' src={LinkImg} alt="" /></a>
+                            <a href="https://github.com/mohdhadi01/NEWS-CHRON-Production-Version/" target="_blank" rel="noopener noreferrer"><img className='GitLink w-10 my-4 cursor-pointer' src={Github} alt="" /></a>
+                            <a href="https://news-chron.vercel.app/Home/" target="_blank" rel="noopener noreferrer"><img className='LinkImg w-10 my-4 cursor-pointer' src={LinkImg} alt="" /></a>
                         </div>
                     </div>
                 </div>
@@ -51,8 +51,8 @@ function Projects() {
                         <hr className='Hr my-5 w-40 mx-20' />
                         <p className='ProjectDesc text-gray-400 text-xs'>Developed a React Note WebApp with useState hook for note creation, deletion, and search. Modular structure with components for flexibility.</p>
                         <div className="linktoProject flex justify-center gap-3">
-                            <a href="https://github.com/mohdhadi01/NOTES--React-based-Note-App-"><img className='GitLink w-10 my-4 cursor-pointer' src={Github} alt="" /></a>
-                            <a href="https://notes-reactapp.vercel.app/"><img className='LinkImg w-10 my-4 cursor-pointer' src={LinkImg} alt="" /></a>
+                            <a href="https://github.com/mohdhadi01/NOTES--React-based-Note-App-/" target="_blank" rel="noopener noreferrer"><img className='GitLink w-10 my-4 cursor-pointer' src={Github} alt="" /></a>
+                            <a href="https://notes-reactapp.vercel.app/" target="_blank" rel="noopener noreferrer"><img className='LinkImg w-10 my-4 cursor-pointer' src={LinkImg} alt="" /></a>
                         </div>
                     </div>
                 </div>
@@ -64,8 +64,8 @@ function Projects() {
                         <hr className='Hr my-5 w-40 mx-20' />
                         <p className='ProjectDesc text-gray-400 text-xs'>Built a real-time language translator with React.js, detecting input language and utilizing Google Translate API through RapidAPI for translations.</p>
                         <div className="linktoProject flex justify-center gap-3">
-                            <a href="https://github.com/mohdhadi01/CodeClauseInternship_Live-Language-Translation"><img className='GitLink w-10 my-4 cursor-pointer' src={Github} alt="" /></a>
-                            <a href="https://livetranslator.vercel.app/"><img className='LinkImg w-10 my-4 cursor-pointer' src={LinkImg} alt="" /></a>
+                            <a href="https://github.com/mohdhadi01/CodeClauseInternship_Live-Language-Translation/" target="_blank" rel="noopener noreferrer"><img className='GitLink w-10 my-4 cursor-pointer' src={Github} alt="" /></a>
+                            <a href="https://livetranslator.vercel.app/" target="_blank" rel="noopener noreferrer"><img className='LinkImg w-10 my-4 cursor-pointer' src={LinkImg} alt="" /></a>
                         </div>
                     </div>
                 </div>

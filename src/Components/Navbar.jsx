@@ -22,32 +22,20 @@ function NavBar() {
         <div className='mainbox'>
             <Navbar
                 className='nav'
-                // isBordered
                 isMenuOpen={isMenuOpen}
                 onMenuOpenChange={setIsMenuOpen}
             >
                 <NavbarContent className="sm:hidden" justify="start">
                     <NavbarBrand>
                         <img
-                        initial={{y:-100}}
-                        animate={{y:0}}
-                        transition={{
-                            duration:1
-                        }}
                         src={Logo} className='logo cursor-pointer' alt="" />
                     </NavbarBrand>
                     <NavbarMenuToggle className='Navtoggle' aria-label={isMenuOpen ? "Close menu" : "Open menu"} />
                 </NavbarContent>
 
-
                 <NavbarContent className="hidden sm:flex gap-4 text" justify="end">
                     <NavbarBrand justify="center">
                         <img
-                        initial={{y:-100}}
-                        animate={{y:0}}
-                        transition={{
-                            duration:1  
-                        }}
                         src={Logo} className='logo  cursor-pointer' alt="" />
                     </NavbarBrand>
 

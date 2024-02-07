@@ -3,7 +3,7 @@ import { Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenuItem, NavbarMenu, Navb
 import Logo from "../Assets/myLogo.png";
 import { Link } from "react-scroll";
 import "./Navbar.css";
-import { motion } from 'framer-motion';
+import "../Components/ANIMATION.css"
 
 function NavBar() {
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -28,7 +28,7 @@ function NavBar() {
             >
                 <NavbarContent className="sm:hidden" justify="start">
                     <NavbarBrand>
-                        <motion.img
+                        <img
                         initial={{y:-100}}
                         animate={{y:0}}
                         transition={{
@@ -42,7 +42,7 @@ function NavBar() {
 
                 <NavbarContent className="hidden sm:flex gap-4 text" justify="end">
                     <NavbarBrand justify="center">
-                        <motion.img
+                        <img
                         initial={{y:-100}}
                         animate={{y:0}}
                         transition={{
@@ -63,7 +63,7 @@ function NavBar() {
                                 duration={500}
                                 className={`w-full text-white`}
                             >
-                                <motion.h1
+                                <h1
                                 initial={{y:-100}}
                                 animate={{y:0}}
                                 transition={{
@@ -74,7 +74,7 @@ function NavBar() {
                                     onClick={() => handleMenuItemClick(item)}
                                 >
                                     {item}
-                                </motion.h1>
+                                </h1>
                             </Link>))}
                     </div>
                 </NavbarContent>

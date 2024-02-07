@@ -19,12 +19,11 @@ function Skills() {
                 <div class="main-gradient right-0 top-5"></div>
             </div>
             <h1
-          
-            className='gradientText SkillHeading text-4xl text-center font-medium my-unit-4xl'>Skills</h1>
+                className='gradientText SkillHeading text-4xl text-center font-medium my-unit-4xl'>Skills</h1>
             <div
-            className="skillContainer">
+                className="skillContainer">
                 <div
-               className="Line1 flex justify-around">
+                    className="Line1 flex justify-around">
                     <div className="SkillIcons flex flex-col"><img className='Icon' src={HtmlIcon} alt="" />HTML</div>
                     <div className="SkillIcons flex flex-col"><img className='Icon' src={CssIcon} alt="" />CSS</div>
                     <div className="SkillIcons flex flex-col"> <img className='Icon' src={ReactIcon} alt="" />React</div>
@@ -32,7 +31,7 @@ function Skills() {
                     <div className="SkillIcons MidLine-1b flex flex-col"> <img className='Icon' src={JSIcon} alt="" />Javascript</div>
                 </div>
                 <div
-               className="Line2 flex justify-center gap-8 my-11">
+                    className="Line2 flex justify-center gap-8 my-11">
                     <div className="SkillIcons flex flex-col"><img className='Icon' src={Tailwind} alt="" />Tailwind</div>
                     <div className="SkillIcons flex flex-col"><img className='Icon' src={Github} alt="" />Github</div>
                     <div className="SkillIcons flex flex-col"><img className='Icon' src={photoshop} alt="" />Photoshop</div>

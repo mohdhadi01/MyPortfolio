@@ -9,18 +9,20 @@
   border-right: solid rgba(255, 255, 255, 0.256) 0.1px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  position: fixed;  
+  position: fixed;
   width: 800px;
   left: 50%;
   transform: translateX(-50%);
   height: 80px;
   color: white;
-  z-index:99999;
-  
+  z-index: 99999;
 }
 
 .rightmenu {
   gap: 36px;
+  animation: slide-down 0.7 both;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
 }
 .Navtoggle {
   background: none;
@@ -29,6 +31,8 @@
   height: 80px;
   filter: contrast(150%);
   filter: drop-shadow(0px 4px 6px rgb(0, 0, 0));
+  animation: slide-down 0.7s both;
+  animation-duration: 1s;
 }
 
 .selected {
@@ -55,3 +59,4 @@
 .open-menu {
   background-color: transparent;
 }
+

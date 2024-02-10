@@ -45,11 +45,11 @@
     0px 4px 8px rgba(0, 0, 0, 0.5), 0px 8px 16px rgba(8, 4, 0, 0.5);
   border: 2px solid rgba(0, 0, 0, 0.281);
   animation: rotateLogo 1.5s ease-in-out both;
-  animation-delay: 0.5s;
+  animation-delay: 1s;
 }
 .Image {
   animation: scale-zoom 1s ease-in-out both;
-  animation-delay: 0.7s;
+  animation-delay: 1.2s;
 }
 .buttons {
   display: flex;

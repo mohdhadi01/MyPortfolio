@@ -29,7 +29,7 @@ function Hero() {
 
         </div>
         <div className="buttons">
-            <a href="https://drive.google.com/file/d/1JD2K5xF108FjhZmcTlFYeoEPk69SN-va/view?usp=drive_link/" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/file/d/1Q9B1QikWWktX787zi2eTeI4hgTKBS500/view?usp=drive_link/" target="_blank" rel="noopener noreferrer">
                 <div
                     className="Resume" style={{ animation: "Text-opacity 2.5s 1.2s ease-in-out both" }}>Download CV</div></a>
 

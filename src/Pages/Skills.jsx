@@ -10,6 +10,9 @@ import Python from "../Assets/Skills/icons8-python-96.png"
 import ReactIcon from "../Assets/Skills/icons8-react-a-javascript-library-for-building-user-interfaces-96.png"
 import Redux from "../Assets/Skills/icons8-redux-an-open-source-javascript-library-for-managing-application-state-96.png"
 import Tailwind from "../Assets/Skills/icons8-tailwindcss-96.png"
+import mongoDB from '../Assets/Skills/mongo-svgrepo-com.svg'
+import Express from '../Assets/Skills/express-svgrepo-com.svg'
+import NodeJs from '../Assets/Skills/node-js-svgrepo-com.svg'
 
 function Skills() {
     return (<>
@@ -37,6 +40,11 @@ function Skills() {
                     <div className="SkillIcons flex flex-col"><img className='Icon' src={photoshop} alt="" />Photoshop</div>
                     <div className="SkillIcons MidLine-1a flex flex-col"><img className='Icon' src={Java} alt="" />Java</div>
                     <div className="SkillIcons MidLine-1b flex flex-col"><img className='Icon' src={Python} alt="" />Python</div>
+                </div>
+                <div className="Line3 flex justify-center gap-8 my-11">
+                    <div className="SkillIcons flex flex-col"><img className='Icon' src={NodeJs} alt="" />Node.js</div>
+                    <div className="SkillIcons  flex flex-col"><img className='Icon' src={Express} alt="" />Express.js</div>
+                    <div className="SkillIcons flex flex-col"><img className='Icon' src={mongoDB} alt="" />MongoDB</div>
                 </div>
 
             </div>

@@ -15,8 +15,8 @@ function About() {
                     <img className='AboutImg' src={aboutImg} alt="" />
                 </div>
                 <div className="AboutText">
-                    <p className='aboutme my-5 text-sm'>I am a final year B.Tech student at Galgotias College of Engineering and Technology.I have a strong passion for creating engaging web experiences. My practical skills include HTML, CSS, JavaScript, React.js, Redux, and managing APIs.
-                        I have hands-on experience developing various projects like CinemaTrix,  NewsChron with React, Notes WebApp, CryptoCurrency Converter, and Live Language Translator Webapp. </p>
+                    <p className='aboutme my-5 text-sm'>I am a final year B.Tech student at Galgotias College of Engineering and Technology.I have a strong passion for creating engaging web experiences. My practical skills include HTML, CSS, JavaScript, React.js, Redux, Nodejs, Express, MongoDB and managing APIs.
+                        I have hands-on experience developing various projects like CinemaTrix, NewsChron with React, Notes WebApp, CryptoCurrency Converter, and Live Language Translator Webapp. </p>
                     <hr />
                     <p className='location contactDetail flex my-5 gap-6'>   <svg stroke="#ce6629f5" fill="#ce6629f5" stroke-width="0" viewBox="0 0 24 24" class="text-xl text-secondary" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z"></path></svg>
                         Noida, India

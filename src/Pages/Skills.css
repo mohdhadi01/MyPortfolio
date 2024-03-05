@@ -70,4 +70,8 @@
   .MidLine-1b {
     margin-left: 120%;
   }
+  .Line3 {
+    justify-content: space-around;
+    margin-top: -22px;
+  }
 }

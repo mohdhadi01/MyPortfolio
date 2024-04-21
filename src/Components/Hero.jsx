@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Hero.css"
-import profileImg from "../Assets/edited_dp-ast6yqVUK-transformed.png"
+import profileImg from "../Assets/edited_dp-ast6yqVUK-transformed.jpg"
 import Arrow from "../Assets/arrow.png"
 import Twitter from "../Assets/twitter (2).png"
 

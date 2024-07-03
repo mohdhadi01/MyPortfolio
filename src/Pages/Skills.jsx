@@ -13,7 +13,8 @@ import Tailwind from "../Assets/Skills/icons8-tailwindcss-96.png"
 import mongoDB from '../Assets/Skills/mongo-svgrepo-com.svg'
 import Express from '../Assets/Skills/express-svgrepo-com.svg'
 import NodeJs from '../Assets/Skills/node-js-svgrepo-com.svg'
-
+import typescript from '../Assets/Skills/typescript-icon.png'
+import materialUi from '../Assets/Skills/material-ui-icon.png'
 function Skills() {
     return (<>
         <div name="skills" className='SkillsPage'>
@@ -22,16 +23,16 @@ function Skills() {
                 <div class="main-gradient right-0 top-5"></div>
             </div>
             <h1
-                className='gradientText SkillHeading text-4xl text-center font-medium my-unit-4xl'>Skills</h1>
+                className='gradientText SkillHeading text-4xl text-center font-medium mt-unit-4xl mb-unit-3xl'>Skills</h1>
             <div
                 className="skillContainer">
                 <div
                     className="Line1 flex justify-around">
-                    <div className="SkillIcons flex flex-col"><img className='Icon' src={HtmlIcon} alt="" />HTML</div>
-                    <div className="SkillIcons flex flex-col"><img className='Icon' src={CssIcon} alt="" />CSS</div>
+                    <div className="SkillIcons flex flex-col"><img className='Icon p-1' src={typescript} alt="" />Typescript</div>
                     <div className="SkillIcons flex flex-col"> <img className='Icon' src={ReactIcon} alt="" />React</div>
-                    <div className="SkillIcons MidLine-1a flex flex-col"> <img className='Icon' src={Redux} alt="" />Redux</div>
-                    <div className="SkillIcons MidLine-1b flex flex-col"> <img className='Icon' src={JSIcon} alt="" />Javascript</div>
+                    <div className="SkillIcons  flex flex-col"> <img className='Icon' src={Redux} alt="" />Redux</div>
+                    <div className="SkillIcons MidLine-1a flex flex-col"> <img className='Icon' src={JSIcon} alt="" />Javascript</div>
+                    <div className="SkillIcons MidLine-1a flex flex-col"><img className='Icon' src={materialUi} alt="" />Materialui</div>
                 </div>
                 <div
                     className="Line2 flex justify-center gap-8 my-11">
@@ -41,10 +42,12 @@ function Skills() {
                     <div className="SkillIcons MidLine-1a flex flex-col"><img className='Icon' src={Java} alt="" />Java</div>
                     <div className="SkillIcons MidLine-1b flex flex-col"><img className='Icon' src={Python} alt="" />Python</div>
                 </div>
-                <div className="Line3 flex justify-center gap-8 my-11">
+                <div className="Line3 flex justify-around">
+                    <div className="SkillIcons flex flex-col"><img className='Icon' src={CssIcon} alt="" />CSS</div>
+                    <div className="SkillIcons flex flex-col"><img className='Icon' src={HtmlIcon} alt="" />HTML</div>
                     <div className="SkillIcons flex flex-col"><img className='Icon' src={NodeJs} alt="" />Node.js</div>
-                    <div className="SkillIcons  flex flex-col"><img className='Icon' src={Express} alt="" />Express.js</div>
-                    <div className="SkillIcons flex flex-col"><img className='Icon' src={mongoDB} alt="" />MongoDB</div>
+                    <div className="SkillIcons MidLine-1a  flex flex-col"><img className='Icon' src={Express} alt="" />Express.js</div>
+                    <div className="SkillIcons MidLine-1b flex flex-col"><img className='Icon' src={mongoDB} alt="" />MongoDB</div>
                 </div>
 
             </div>

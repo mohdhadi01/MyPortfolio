@@ -4,6 +4,8 @@
 .skillContainer {
   position: relative;
   z-index: 999;
+  
+
 }
 .SkillIcons {
   height: 100px;
@@ -55,14 +57,18 @@
     gap: 20px;
     width: 100vw;
     place-items: center;
+    margin-top: -10px;
+  
+    
   }
   .Line2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     width: 100vw;
-    margin-top: 20px;
     place-items: center;
+    margin-top: 20px;
+  
   }
   .MidLine-1a {
     margin-left: 120%;
@@ -71,7 +77,12 @@
     margin-left: 120%;
   }
   .Line3 {
-    justify-content: space-around;
-    margin-top: -22px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100vw;
+    place-items: center;
+    margin-top: -20px;
+  
   }
 }

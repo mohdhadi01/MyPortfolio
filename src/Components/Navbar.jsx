@@ -49,6 +49,7 @@ function NavBar() {
                                 spy={true}
                                 smooth={true}
                                 duration={500}
+                                offset={-110}
                                 className={`w-full text-white`}
                             >
                                 <h1

@@ -20,7 +20,7 @@ function Projects() {
                 <div class="main-gradient1 right-1 top-unit-4xl"></div>
                 {/* <div class="main-gradient1 right-0 top-unit-9xl"></div> */}
             </div>
-            <h1 className='gradientText Projectname text-4xl text-center font-medium my-unit-4xl'>Projects</h1>
+            <h1 className='gradientText Projectname text-4xl text-center font-medium mt-unit-4xl mb-unit-3xl'>Projects</h1>
             <div className="Myprojects flex justify-center align-middle">
                 <Swiper
                     effect={'cards'}

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.321143dd.css",
-    "main.js": "/static/js/main.9a4d7d74.js",
+    "main.js": "/static/js/main.c6d69b54.js",
     "static/media/Cinematrix.jpg": "/static/media/Cinematrix.0028a38bffa80a8203f7.jpg",
     "static/media/NEWSCHRON.jpg": "/static/media/NEWSCHRON.9540e0482a96f7938df0.jpg",
     "static/media/Portfolio SS.png": "/static/media/Portfolio SS.75c0f979352d70643211.png",
@@ -18,10 +18,10 @@
     "static/media/express-svgrepo-com.svg": "/static/media/express-svgrepo-com.a6606d033000bf34a5cfd8d1e9e92813.svg",
     "index.html": "/index.html",
     "main.321143dd.css.map": "/static/css/main.321143dd.css.map",
-    "main.9a4d7d74.js.map": "/static/js/main.9a4d7d74.js.map"
+    "main.c6d69b54.js.map": "/static/js/main.c6d69b54.js.map"
   },
   "entrypoints": [
     "static/css/main.321143dd.css",
-    "static/js/main.9a4d7d74.js"
+    "static/js/main.c6d69b54.js"
   ]
 }

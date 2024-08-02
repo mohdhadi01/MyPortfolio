@@ -4,12 +4,12 @@ import aboutImg from "../Assets/abouttt.png"
 
 function About() {
     return (
-        <div name="about" className='AboutPage'>
+        <div name="about" className='AboutPage pt-28'>
             <div className="screenSize">
                 <div class="main-gradient left-0 top-80"></div>
                 <div class="main-gradient right-0 top-10"></div>
             </div>
-            <h1 className='gradientText AboutHeading text-4xl text-center font-medium my-unit-3xl'>About</h1>
+            <h1 className='gradientText AboutHeading text-4xl pb-16 text-center font-medium my-unit-3xl'>About</h1>
             <div className="aboutSection flex justify-between">
                 <div className="AboutImage">
                     <img className='AboutImg' src={aboutImg} alt="" />

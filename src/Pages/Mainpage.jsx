@@ -7,7 +7,7 @@ import Skills from './Skills'
 import Projects from './Projects'
 import Myfooter from '../Components/Footer'
 import Links from './Links'
-
+import Experience from '../Pages/Experience'
 
 function Mainpage() {
     return (<>
@@ -15,6 +15,7 @@ function Mainpage() {
             <div className="ShowBox">
                 <NavBar />
                 <Hero />
+                <Experience/>
                 <Skills />
                 <Projects />
                 <About />

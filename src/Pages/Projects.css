@@ -54,7 +54,7 @@
     align-items: center;
   }
   .Projectname {
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
   }
 }
 @media screen and (max-width: 450px) {
@@ -77,7 +77,7 @@
     margin-top: -10px;
   }
   .Projectname {
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
   }
   .main-gradient1 {
     height: 120px;

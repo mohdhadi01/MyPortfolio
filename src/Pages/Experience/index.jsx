@@ -4,6 +4,7 @@ import BuckmintCoverImg from '../../Assets/experience/Buckmint-cover-img.jpeg'
 
 const MainDiv = styled.div`
   padding-top: 70px;
+
 `
 const CustomDiv = styled.div`
  height: 450px;
@@ -11,12 +12,17 @@ const CustomDiv = styled.div`
  justify-content: center;
  gap: 40px;
  padding-top: 100px;
+
 `
 const LeftSection = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
+  @media (max-width: ${500}px){
+    top: -10px;
+  
+  }
 `
 const RightSection = styled.div`
   
@@ -40,6 +46,10 @@ const Date = styled.p`
   top: -7px;
   right:-10px;
   width: 140px;
+  @media (max-width: ${690}px){
+    top: -45px;
+    left:-10px;
+  }
 `
 const FinalDate = styled.p`
 font-size: 16px;
@@ -49,6 +59,10 @@ position: absolute;
 top: 260px;
 /* right:-10px; */
 width: 140px;
+@media (max-width: ${690}px){
+    top: 290px;
+    left:-10px;
+  }
 `
 const SmallLogo = styled.div`
     background: -webkit-linear-gradient(
@@ -91,11 +105,14 @@ const Image = styled.img`
   border-radius: 15px;
   margin-top: 20px;
   border: 2px solid #dad7d734;
+  @media (max-width: ${500}px){
+    width: 300px;
+  }
 `
 const Index = () => {
   return (
     <MainDiv>
-         <h1 className='gradientText SkillHeading text-4xl text-center font-medium mt-unit-4xl mb-unit-3xl'>Experience</h1>
+         <h1 className='gradientText SkillHeading text-4xl text-center font-medium mt-unit-4xl mb-unit-3xl '>Experience</h1>
            <CustomDiv>
               <LeftSection>
                 <Date> March 18, 2024</Date>

@@ -24,7 +24,7 @@ function Skills() {
                 <div class="main-gradient right-0 top-5"></div>
             </div>
             <h1
-                className='gradientText SkillHeading text-4xl text-center pb-20 font-medium mt-unit-4xl mb-unit-3xl'>Skills</h1>
+                className='gradientText SkillHeading text-4xl text-center  pb-20 font-medium mt-unit-4xl mb-unit-3xl'>Skills</h1>
             <div
                 className="skillContainer">
                 <div

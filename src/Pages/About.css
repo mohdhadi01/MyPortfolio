@@ -31,10 +31,12 @@
     gap: 15px;
   }
   .AboutHeading {
-    margin-bottom: 70px;
+    /* margin-bottom: 70px; */
   }
 }
-
+.AboutPage{
+  padding-top: 70px;
+}
 @media screen and (max-width: 480px) {
   .AboutImg {
     width: 150px;
@@ -47,9 +49,12 @@
     font-size: 0.8rem;
   }
   .AboutHeading {
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
   }
   .aboutme {
     font-size: 0.65rem;
+  }
+  .AboutPage{
+    padding-top: 40px;
   }
 }

@@ -14,7 +14,7 @@ function Links() {
                     <div class="main-gradient right-0 top-10"></div>
                     <div class="main-gradient right-0 top-unit-9xl"></div>
                 </div>
-                <h1 className='gradientText LinkHeading text-4xl pb-10 text-center font-medium mt-unit-4xl mb-unit-xl'>Links</h1>
+                <h1 className='gradientText LinkHeading text-4xl  pb-10 text-center font-medium mt-unit-4xl mb-unit-xl'>Links</h1>
 
                 <div className="linkContainer">
 

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.61aaf7ac.css",
-    "main.js": "/static/js/main.8fe8686e.js",
+    "main.js": "/static/js/main.912cab6f.js",
     "static/media/Cinematrix.jpg": "/static/media/Cinematrix.0028a38bffa80a8203f7.jpg",
     "static/media/NEWSCHRON.jpg": "/static/media/NEWSCHRON.9540e0482a96f7938df0.jpg",
     "static/media/Portfolio SS.png": "/static/media/Portfolio SS.75c0f979352d70643211.png",
@@ -11,6 +11,7 @@
     "static/media/myLogo.png": "/static/media/myLogo.f07969e014075c78fdfc.png",
     "static/media/image-removebg-preview (1).png": "/static/media/image-removebg-preview (1).49a3eaa80411cd9bd3e5.png",
     "static/media/Buckmint-cover-img.jpeg": "/static/media/Buckmint-cover-img.5bca58fcb5053fb33c20.jpeg",
+    "static/media/cinem-backend.png": "/static/media/cinem-backend.bcae543fe40970cb3e8c.png",
     "static/media/edited_dp-ast6yqVUK-transformed.jpg": "/static/media/edited_dp-ast6yqVUK-transformed.4bbad5fc3e995957a3e4.jpg",
     "static/media/NewsChron_Icon-removebg-preview.png": "/static/media/NewsChron_Icon-removebg-preview.f8be7acec1232b4eea94.png",
     "static/media/node-js-svgrepo-com.svg": "/static/media/node-js-svgrepo-com.927fc395a2f60b02c2917643ad340f0c.svg",
@@ -19,10 +20,10 @@
     "static/media/express-svgrepo-com.svg": "/static/media/express-svgrepo-com.a6606d033000bf34a5cfd8d1e9e92813.svg",
     "index.html": "/index.html",
     "main.61aaf7ac.css.map": "/static/css/main.61aaf7ac.css.map",
-    "main.8fe8686e.js.map": "/static/js/main.8fe8686e.js.map"
+    "main.912cab6f.js.map": "/static/js/main.912cab6f.js.map"
   },
   "entrypoints": [
     "static/css/main.61aaf7ac.css",
-    "static/js/main.8fe8686e.js"
+    "static/js/main.912cab6f.js"
   ]
 }

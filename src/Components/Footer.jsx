@@ -2,13 +2,16 @@ import React from 'react'
 import "./Footer.css"
 import Logo from "../Assets/myLogo.png";
 import Twitter from "../Assets/twitter (2).png"
+import { Parallax } from 'react-scroll-parallax';
 
 function Myfooter() {
     return (
         <div className='footer'>
             <div className="screenSize">
+            <Parallax speed={-20}>
                 <div class="main-gradient1 left-0 top-10"></div>
                 <div class="main-gradient1 right-0 top-10"></div>
+                </Parallax>
             </div>
             <div className="Logo w-40"><img src={Logo} alt="" /></div>
             <h4 className='para text-sm'>I like building new things and turn visions into vibrant code as a frontend wizard. I worked on Many projects as a developer using most recent Technologies.</h4>

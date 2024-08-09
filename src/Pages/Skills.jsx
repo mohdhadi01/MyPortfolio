@@ -15,14 +15,23 @@ import Express from '../Assets/Skills/express-svgrepo-com.svg'
 import NodeJs from '../Assets/Skills/node-js-svgrepo-com.svg'
 import typescript from '../Assets/Skills/typescript-icon.png'
 import materialUi from '../Assets/Skills/material-ui-icon.png'
+import { Parallax } from 'react-scroll-parallax'
+
 
 function Skills() {
     return (<>
         <div name="skills" className='SkillsPage pt-10 '>
+            
             <div className="screenSize">
+            <Parallax speed={-20}>
                 <div class="main-gradient left-0 top-80"></div>
+                </Parallax>
+                <Parallax speed={-10}>
                 <div class="main-gradient right-0 top-5"></div>
+                </Parallax>
             </div>
+            
+          
             <h1
                 className='gradientText SkillHeading text-4xl text-center  pb-20 font-medium mt-unit-4xl mb-unit-3xl'>Skills</h1>
             <div
@@ -52,6 +61,7 @@ function Skills() {
                 </div>
 
             </div>
+         
 
         </div>
     </>)

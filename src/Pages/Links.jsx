@@ -4,15 +4,24 @@ import { Github, LinkedinIcon, MoveUpRight, NotebookText, TwitterIcon, UserSearc
 import CinematrixIcon from '../Assets/ProjectICON/image-removebg-preview (1).png';
 import NewsChronIcon from '../Assets/ProjectICON/NewsChron_Icon-removebg-preview.png';
 import LiveTransIcon from '../Assets/ProjectICON/LiveTran_Icon-removebg-preview.png';
+import { Parallax } from 'react-scroll-parallax';
+
 
 function Links() {
+   
     return (
         <div>
             <div name="links" className='AboutPage pt-28'>
                 <div className="screenSize">
-                    <div class="main-gradient left-0 top-96"></div>
-                    <div class="main-gradient right-0 top-10"></div>
-                    <div class="main-gradient right-0 top-unit-9xl"></div>
+                <Parallax speed={-20}>
+                    <div class="main-gradient right-0 top-96"></div>
+                    </Parallax>
+                    <Parallax speed={-10}>
+                    {/* <div class="main-gradient right-0 top-10"></div> */}
+                    </Parallax>
+                    <Parallax speed={-20}>
+                    {/* <div class="main-gradient right-0 top-unit-9xl"></div> */}
+                    </Parallax>
                 </div>
                 <h1 className='gradientText LinkHeading text-4xl  pb-10 text-center font-medium mt-unit-4xl mb-unit-xl'>Links</h1>
 

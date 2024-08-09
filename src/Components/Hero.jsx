@@ -3,13 +3,18 @@ import "./Hero.css"
 import profileImg from "../Assets/edited_dp-ast6yqVUK-transformed.jpg"
 import Arrow from "../Assets/arrow.png"
 import Twitter from "../Assets/twitter (2).png"
+import { Parallax } from 'react-scroll-parallax'
 
 function Hero() {
 
     return (<>
         <div className="screenSize">
+        <Parallax speed={0}>
             <div class="main-gradient left-0 bottom-full"></div>
+        </Parallax>
+        <Parallax speed={-5}>
             <div class="main-gradient right-0 top-20"></div>
+            </Parallax>
         </div>
         <div name="home" className='Hero'>
             <div className="Desc">
@@ -44,6 +49,7 @@ function Hero() {
             <a style={{ animation: "scale-zoom 1.5s 1s ease-in-out both" }} href="https://www.linkedin.com/in/mohd-hadi-5a4638226/" target="_blank" rel="noopener noreferrer"><svg stroke="#ff7a2c" fill="#ce6629f5" stroke-width="0" viewBox="0 0 448 512" class="SocialIcons text-secondary hover:text-secondary/50  text-2xl md:text-3xl " height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg></a>
             <a style={{ animation: "scale-zoom 1.5s 1s ease-in-out both" }} href="https://twitter.com/mohdhadi01/" target="_blank" rel="noopener noreferrer"><img src={Twitter} className='SocialIcons' alt="" /></a>
         </div>
+       
 
     </>)
 }

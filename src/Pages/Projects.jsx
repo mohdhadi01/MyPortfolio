@@ -12,14 +12,19 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCards } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-cards";
+import { Parallax } from "react-scroll-parallax";
 
 function Projects() {
   return (
     <>
       <div name="projects" className="ProjectPage pt-28">
         <div className="screenSize">
+        <Parallax speed={-20}>
           <div class="main-gradient1 left-1 top-unit-7xl"></div>
+          </Parallax>
+          <Parallax speed={-20}>
           <div class="main-gradient1 right-1 top-unit-4xl"></div>
+          </Parallax>
           {/* <div class="main-gradient1 right-0 top-unit-9xl"></div> */}
         </div>
         <h1 className="gradientText Projectname text-4xl text-center pb-16 font-medium mt-unit-4xl mb-unit-3xl">

@@ -1,13 +1,16 @@
 import React from 'react'
 import "./About.css"
 import aboutImg from "../Assets/abouttt.png"
+import { Parallax } from 'react-scroll-parallax'
 
 function About() {
     return (
         <div name="about" className='AboutPage'>
             <div className="screenSize">
+            <Parallax speed={-20}>
                 <div class="main-gradient left-0 top-80"></div>
                 <div class="main-gradient right-0 top-10"></div>
+                </Parallax>
             </div>
             <h1 className='gradientText AboutHeading text-4xl pb-14 text-center font-medium my-unit-3xl'>About</h1>
             <div className="aboutSection flex justify-between">

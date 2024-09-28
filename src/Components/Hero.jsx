@@ -34,7 +34,7 @@ function Hero() {
 
         </div>
         <div className="buttons">
-            <a href="https://drive.google.com/file/d/1Nz_pt54uIZRXjb-qwwRst3FifKHRftFJ/view?usp=drive_link/" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/file/d/1OGoy3qDwepIG0cpCCrP5Ezq7W1m2VOAR/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                 <div
                     className="Resume" style={{ animation: "Text-opacity 2.5s 1.2s ease-in-out both" }}>Download CV</div></a>
 

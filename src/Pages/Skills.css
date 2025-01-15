@@ -4,8 +4,6 @@
 .skillContainer {
   position: relative;
   z-index: 999;
-  
-
 }
 .SkillIcons {
   height: 100px;
@@ -22,7 +20,7 @@
   z-index: 2;
   align-items: center;
   font-family: monospace;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: lighter;
   border-radius: 10px;
 }
@@ -58,8 +56,6 @@
     width: 100vw;
     place-items: center;
     margin-top: -10px;
-  
-    
   }
   .Line2 {
     display: grid;
@@ -68,7 +64,6 @@
     width: 100vw;
     place-items: center;
     margin-top: 20px;
-  
   }
   .MidLine-1a {
     margin-left: 120%;
@@ -83,6 +78,5 @@
     width: 100vw;
     place-items: center;
     margin-top: -20px;
-  
   }
 }

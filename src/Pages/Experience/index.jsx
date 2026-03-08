@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import BuckmintLogo from "../../Assets/experience/logo.svg";
-import ZoooxLogo from "../../Assets/logo/zooox-logo.png"; 
+import ZoooxLogo from "../../Assets/Logo/zooox-logo.png"; 
 
 const MainDiv = styled.div`
   padding-top: 70px;

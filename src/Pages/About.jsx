@@ -21,14 +21,9 @@ function About() {
         </div>
         <div className="AboutText">
           <p className="aboutme my-5 text-sm">
-            I am a passionate Software Engineer and B.Tech graduate from
-            Galgotia's College of Engineering and Technology (2024), specializes
-            in crafting innovative web and mobile applications. With expertise
-            in React, React Native, and TypeScript, he has a proven track record
-            of elevating user experiences, including developing dynamic
-            dashboards and AI-powered apps. Driven by creativity and precision,
-            he thrives on building impactful, responsive solutions that leave a
-            lasting impression.{" "}
+          Frontend-focused Software Developer with 2+ year of full-time experience building cross-platform mobile (React Native)
+          and web (React.js, GraphQL) products at an early-stage startup. Proven track record of owning features end-to-end - from
+          architecture to production - across two products in fintech and e-commerce.{" "}
           </p>
           <hr />
           <p className="location contactDetail flex my-5 gap-6">
@@ -75,7 +70,7 @@ function About() {
               aria-hidden="true"
               class="text-xl text-secondary"
               height="1em"
-              width="1em"
+              width="1em" 
               xmlns="http://www.w3.org/2000/svg"
             >
               <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>

@@ -29,7 +29,7 @@ function Links() {
 
                     <div className="featuredLinks">
                         <h2 className='KnowMore my-5 text-pretty font-semibold  text-slate-600 text-center'>KNOW MORE ABOUT ME</h2>
-                        <a href="mohdhadi.vercel.app"><div className="LinkBox my-3 flex align-middle">
+                        <a href="/"><div className="LinkBox my-3 flex align-middle">
                             <h3 className='MyProfile flex gap-2 font-semibold'><UserSearchIcon /> mohdhadi</h3> <MoveUpRight className='linkArrow w-4 flex' />
                         </div></a>
 

@@ -22,7 +22,7 @@ function Myfooter() {
                 <a href="https://twitter.com/mohdhadi01/" target="_blank" rel="noopener noreferrer"> <img src={Twitter} className='SocialIconss' alt="" /></a>
             </div>
             <div className="Credit flex">
-                <hr className='Hr HrFooter w-56' /><h1 className='NameCredit text-slate-50'>© 2024 Mohd Hadi. All rights reserved.</h1><hr className='Hr HrFooter  w-56' />
+                <hr className='Hr HrFooter w-56' /><h1 className='NameCredit text-slate-50'>© 2026 Mohd Hadi. All rights reserved.</h1><hr className='Hr HrFooter  w-56' />
             </div>
 
 

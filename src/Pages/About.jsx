@@ -2,6 +2,28 @@ import React from "react";
 import "./About.css";
 import aboutImg from "../Assets/abouttt.png";
 import { Parallax } from "react-scroll-parallax";
+import styled from "styled-components";
+
+const SectionTitle = styled.h1`
+  font-size: 2.8rem;
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  position: relative;
+  z-index: 1;
+`;
+
+const GradientText = styled.span`
+  background: linear-gradient(to right, #ffffff 20%, #ffcc99 50%, #fb7c14 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  filter: drop-shadow(0px 4px 15px rgba(251, 124, 20, 0.25));
+`;
 
 function About() {
   return (
@@ -12,9 +34,9 @@ function About() {
           <div class="main-gradient right-0 top-10"></div>
         </Parallax>
       </div>
-      <h1 className="gradientText AboutHeading text-4xl pb-14 text-center font-medium my-unit-3xl">
-        About
-      </h1>
+      <SectionTitle>
+        <GradientText>About</GradientText>
+      </SectionTitle>
       <div className="aboutSection flex justify-between">
         <div className="AboutImage">
           <img className="AboutImg" src={aboutImg} alt="" />
@@ -29,7 +51,7 @@ function About() {
           <p className="location contactDetail flex my-5 gap-6">
             {" "}
             <svg
-              stroke="#ce6629f5"
+              stroke="#ce6629f5"   
               fill="#ce6629f5"
               stroke-width="0"
               viewBox="0 0 24 24"

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import BuckmintLogo from "../../Assets/experience/logo.svg";
-import ZoooxLogo from "../../Assets/Logo/zooox-logo.png"; 
+import ZoooxLogo from "../../Assets/zooox-logo.png"; 
 
 const MainDiv = styled.div`
   padding-top: 70px;
@@ -10,6 +10,27 @@ const MainDiv = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+`;
+
+const SectionTitle = styled.h1`
+  font-size: 2.8rem;
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  position: relative;
+  z-index: 1;
+`;
+
+const GradientText = styled.span`
+  background: linear-gradient(to right, #ffffff 20%, #ffcc99 50%, #fb7c14 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  filter: drop-shadow(0px 4px 15px rgba(251, 124, 20, 0.25));
 `;
 
 const TreeContainer = styled.div`
@@ -205,9 +226,9 @@ const ProductDate = styled.p`
 const Index = () => {
   return (
     <MainDiv>
-      <h1 className="gradientText SkillHeading text-4xl text-center font-medium mt-unit-4xl mb-unit-3xl mb-16">
-        Experience
-      </h1>
+      <SectionTitle>
+        <GradientText>Experience</GradientText>
+      </SectionTitle>
 
       <TreeContainer>
         
@@ -217,7 +238,7 @@ const Index = () => {
             <GlowingDot />
           </CompanyDotWrapper>
           <CompanyDetails>
-            <CompanyName>Oxagen Technologies</CompanyName>
+            <CompanyName>Oxagen Technologies PVT LTD</CompanyName>
             <RoleText>Software Engineer</RoleText>
             <CompanyDate>03.2024 - Present • Noida, India</CompanyDate>
           </CompanyDetails>
@@ -229,7 +250,7 @@ const Index = () => {
             <SquareItem>
               <Logo src={ZoooxLogo} alt="ZOOOX Logo" />
             </SquareItem>
-          </ProductSquare>
+          </ProductSquare> 
           <ProductTextCard className="text-card">
             <ProductName>ZOOOX</ProductName>
             <ProductType>Mobile App & Web Platform</ProductType>

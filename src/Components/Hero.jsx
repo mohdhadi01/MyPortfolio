@@ -51,7 +51,7 @@ function Hero() {
       </div>
       <div className="buttons">
         <a
-          href="https://drive.google.com/file/d/1yGkZJiAWUmkR5hC9q0sMb40qEntBs3Dn/view?usp=sharing/"
+          href="https://drive.google.com/file/d/1VogSVMCa0Qw3FxgZU7ZxQmNVELMyCXFK/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -695,8 +695,8 @@ import LinkImg from "../Assets/LinkImg.png";
 // --- BACKGROUND & HEADING STYLES ---
 
 const ProjectPage = styled.section`
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
   position: relative;
   overflow: hidden;
   font-family: "Rajdhani", sans-serif;
@@ -729,7 +729,7 @@ const MainGradient = styled.div`
   border-radius: 9999px;
   filter: blur(150px);
   -webkit-filter: blur(150px);
-  opacity: 0.5;
+  opacity: 0.2;
 
   &.left {
     left: 0.25rem;

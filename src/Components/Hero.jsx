@@ -906,8 +906,8 @@ const ProfilePic = styled.img`
 // THE NEW YOE BADGE
 const ExperienceBadge = styled(motion.div)`
   position: absolute;
-  bottom: -5px;
-  right: -15px;
+  bottom: -15px;
+  right: -20px;
   background: linear-gradient(135deg, #fb7c14 0%, #d85b00 100%);
   color: #fff;
   font-weight: 800;
@@ -917,8 +917,8 @@ const ExperienceBadge = styled(motion.div)`
   border-radius: 50px;
   box-shadow: 0 10px 20px rgba(251, 124, 20, 0.4);
   border: 4px solid #050505; /* Creates a cutout effect against the image */
-  z-index: 10;
-  transform: translateZ(40px) rotate(-10deg); /* Pops way out in 3D */
+  z-index: 9999;
+  transform: translateZ(140px) rotate(-10deg); 
   pointer-events: none;
 
   @media (max-width: 600px) {
@@ -959,7 +959,7 @@ const TechOrb = styled(motion.div)`
 // --- TYPOGRAPHY ---
 
 const HugeName = styled(motion.h1)`
-  font-size: clamp(4rem, 9vw, 8rem);
+  font-size: clamp(3rem, 7vw, 6rem);
   font-weight: 800;
   margin: 0;
   line-height: 1;
@@ -969,7 +969,7 @@ const HugeName = styled(motion.h1)`
 `;
 
 const Subtitle = styled(motion.h2)`
-  font-size: clamp(1.2rem, 3vw, 2.2rem);
+  font-size: clamp(1rem, 3vw, 2rem);
   font-weight: 600;
   margin-top: 15px;
   margin-bottom: 30px;
@@ -986,9 +986,9 @@ const Subtitle = styled(motion.h2)`
 const BioText = styled(motion.p)`
   max-width: 650px;
   color: #8b949e;
-  font-size: 19px;
-  line-height: 1.6;
-  margin-bottom: 50px;
+  font-size: 20px;
+  line-height: 1.3;
+  margin-bottom: 30px;
   padding: 0 20px;
 `;
 
@@ -1223,7 +1223,7 @@ function Hero() {
           </Subtitle>
 
           <BioText variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}>
-            Frontend-focused Software Developer building scalable, cross-platform mobile and web applications. <br/>
+            Frontend-focused Software Developer building scalable, cross-platform mobile and web applications.
             Proven track record of owning features from architecture to production.
           </BioText>
 

@@ -1051,7 +1051,7 @@ const PlayableBentoCard = ({ project }) => {
 
 // --- DATA ---
 
-const projectData = [
+export const projectData = [
   { 
     logo: ZoooxLogo, 
     brandColor: "#6366f1", 

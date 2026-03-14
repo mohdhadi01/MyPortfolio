@@ -51,7 +51,7 @@
 //           <p className="location contactDetail flex my-5 gap-6">
 //             {" "}
 //             <svg
-//               stroke="#ce6629f5"   
+//               stroke="#ce6629f5"
 //               fill="#ce6629f5"
 //               stroke-width="0"
 //               viewBox="0 0 24 24"
@@ -92,7 +92,7 @@
 //               aria-hidden="true"
 //               class="text-xl text-secondary"
 //               height="1em"
-//               width="1em" 
+//               width="1em"
 //               xmlns="http://www.w3.org/2000/svg"
 //             >
 //               <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
@@ -114,7 +114,13 @@
 // export default About;
 import React, { useRef, useState } from "react";
 import styled from "styled-components";
-import { motion, useMotionValue, useSpring, useTransform, useMotionTemplate } from "framer-motion";
+import {
+  motion,
+  useMotionValue,
+  useSpring,
+  useTransform,
+  useMotionTemplate,
+} from "framer-motion";
 import { Parallax } from "react-scroll-parallax";
 
 import aboutImg from "../Assets/abouttt.png"; // Make sure this path is correct
@@ -134,18 +140,27 @@ const AboutWrapper = styled.section`
 const GridOverlay = styled.div`
   position: absolute;
   inset: 0;
-  background-image: 
+  background-image:
     linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
   background-size: 40px 40px;
   mask-image: radial-gradient(circle at center, black 40%, transparent 80%);
-  -webkit-mask-image: radial-gradient(circle at center, black 40%, transparent 80%);
+  -webkit-mask-image: radial-gradient(
+    circle at center,
+    black 40%,
+    transparent 80%
+  );
   z-index: 0;
   pointer-events: none;
 `;
 
 const MainGradient = styled.div`
-  background-image: linear-gradient(500deg, rgba(166, 73, 65, 0.3), rgba(206, 153, 110, 0.3), rgba(251, 124, 20, 0.2));
+  background-image: linear-gradient(
+    500deg,
+    rgba(166, 73, 65, 0.3),
+    rgba(206, 153, 110, 0.3),
+    rgba(251, 124, 20, 0.2)
+  );
   position: absolute;
   height: 400px;
   width: 400px;
@@ -153,8 +168,14 @@ const MainGradient = styled.div`
   filter: blur(150px);
   z-index: 0;
 
-  &.left { left: -10rem; top: 10rem; }
-  &.right { right: -5rem; bottom: 0rem; }
+  &.left {
+    left: -10rem;
+    top: 10rem;
+  }
+  &.right {
+    right: -5rem;
+    bottom: 0rem;
+  }
 `;
 
 // --- TYPOGRAPHY ---
@@ -219,14 +240,20 @@ const GlassCard = styled(motion.div)`
   border: 1px solid rgba(255, 255, 255, 0.08);
   padding: 15px;
   transform-style: preserve-3d;
-  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6), inset 0 1px 1px rgba(255, 255, 255, 0.1);
+  box-shadow:
+    0 30px 60px rgba(0, 0, 0, 0.6),
+    inset 0 1px 1px rgba(255, 255, 255, 0.1);
   overflow: hidden;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, transparent 100%);
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      transparent 100%
+    );
     z-index: 1;
     pointer-events: none;
   }
@@ -256,7 +283,7 @@ const TerminalBox = styled(motion.div)`
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
   width: 100%;
 `;
 
@@ -273,10 +300,16 @@ const TerminalHeader = styled.div`
     height: 12px;
     border-radius: 50%;
   }
-  .red { background: #ff5f56; }
-  .yellow { background: #ffbd2e; }
-  .green { background: #27c93f; }
-  
+  .red {
+    background: #ff5f56;
+  }
+  .yellow {
+    background: #ffbd2e;
+  }
+  .green {
+    background: #27c93f;
+  }
+
   .title {
     margin-left: auto;
     margin-right: auto;
@@ -290,8 +323,8 @@ const TerminalHeader = styled.div`
 const TerminalBody = styled.div`
   padding: 30px;
   color: #c9d1d9;
-  font-size: 17px;
-  line-height: 1.7;
+  font-size: 16px;
+  line-height: 1.6;
   font-family: monospace;
 
   .highlight {
@@ -341,7 +374,9 @@ const ContactPill = styled(motion.a)`
     color: #ffffff;
     transform: translateX(10px);
 
-    svg { transform: scale(1.2); }
+    svg {
+      transform: scale(1.2);
+    }
   }
 `;
 
@@ -350,7 +385,7 @@ const ContactPill = styled(motion.a)`
 const MagneticButtonWrapper = styled(motion.div)`
   position: relative;
   display: inline-block;
-  padding: 20px 20px 20px 0; 
+  padding: 20px 20px 20px 0;
   margin-top: 20px;
 `;
 
@@ -373,13 +408,18 @@ const StyledMagnetBtn = styled(motion.a)`
   transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: -100%;
     width: 50%;
     height: 100%;
-    background: linear-gradient(to right, transparent, rgba(255,255,255,0.4), transparent);
+    background: linear-gradient(
+      to right,
+      transparent,
+      rgba(255, 255, 255, 0.4),
+      transparent
+    );
     transform: skewX(-20deg);
     transition: left 0.5s ease;
   }
@@ -388,7 +428,9 @@ const StyledMagnetBtn = styled(motion.a)`
     box-shadow: 0 15px 35px rgba(251, 124, 20, 0.5);
     background: #fb7c14;
     color: #ffffff;
-    &::after { left: 150%; }
+    &::after {
+      left: 150%;
+    }
   }
 `;
 
@@ -414,9 +456,7 @@ const MagneticButton = ({ children, href }) => {
       animate={{ x: position.x, y: position.y }}
       transition={{ type: "spring", stiffness: 150, damping: 15, mass: 0.1 }}
     >
-      <StyledMagnetBtn href={href}>
-        {children}
-      </StyledMagnetBtn>
+      <StyledMagnetBtn href={href}>{children}</StyledMagnetBtn>
     </MagneticButtonWrapper>
   );
 };
@@ -431,10 +471,10 @@ function About() {
   const springConfig = { damping: 20, stiffness: 150, mass: 0.5 };
   const smoothX = useSpring(mouseX, springConfig);
   const smoothY = useSpring(mouseY, springConfig);
-  
+
   const rotateX = useTransform(smoothY, [-0.5, 0.5], ["12deg", "-12deg"]);
   const rotateY = useTransform(smoothX, [-0.5, 0.5], ["-12deg", "12deg"]);
-  
+
   const glareBackground = useMotionTemplate`radial-gradient(300px circle at ${useTransform(smoothX, [-0.5, 0.5], [0, 100])}% ${useTransform(smoothY, [-0.5, 0.5], [0, 100])}%, rgba(255,255,255,0.15), transparent 60%)`;
 
   const handleMouseMove = (e) => {
@@ -494,11 +534,16 @@ function About() {
           viewport={{ once: true, margin: "-100px" }}
           variants={{
             hidden: { opacity: 0 },
-            visible: { opacity: 1, transition: { staggerChildren: 0.15 } }
+            visible: { opacity: 1, transition: { staggerChildren: 0.15 } },
           }}
         >
           {/* Mac-Style Terminal */}
-          <TerminalBox variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}>
+          <TerminalBox
+            variants={{
+              hidden: { opacity: 0, y: 20 },
+              visible: { opacity: 1, y: 0 },
+            }}
+          >
             <TerminalHeader>
               <div className="dot red"></div>
               <div className="dot yellow"></div>
@@ -506,15 +551,45 @@ function About() {
               <div className="title">hadi@portfolio:~</div>
             </TerminalHeader>
             <TerminalBody>
-              > Frontend-focused Software Developer with <span className="highlight">2+ years</span> of full-time experience building cross-platform mobile (React Native) and web (React.js, GraphQL) products at an early-stage startup. <br /><br />
-              > Proven track record of owning features end-to-end — from architecture to production — across two distinct products in the <span className="highlight">fintech</span> and <span className="highlight">e-commerce</span> sectors.
+              <span className="prompt">></span> Frontend Engineer who turns
+              ideas into{" "}
+              <span className="highlight">production-ready apps</span> — not
+              just prototypes.
+              <br />
+              <br />
+              <span className="prompt">></span>{" "}
+              <span className="highlight">2+ years</span> building React Native
+              and React.js products at a startup. Shipped a live cashback app on
+              the Play Store, a blockchain DEX dashboard, and a Chrome Extension
+              — mostly as the only frontend developer.
+              <br />
+              <br />
+              <span className="prompt">></span> I care about code that scales,
+              UX that works on low-end devices, and systems that{" "}
+              <span className="highlight">don't break at 2am</span>.
+              <span className="cursor"></span>
             </TerminalBody>
           </TerminalBox>
 
           {/* Interactive Contact Bento Grid */}
-          <ContactGrid variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}>
-            <ContactPill href="https://maps.google.com/?q=Noida,India" target="_blank">
-              <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="1em" width="1em">
+          <ContactGrid
+            variants={{
+              hidden: { opacity: 0, y: 20 },
+              visible: { opacity: 1, y: 0 },
+            }}
+          >
+            <ContactPill
+              href="https://maps.google.com/?q=Noida,India"
+              target="_blank"
+            >
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                strokeWidth="0"
+                viewBox="0 0 24 24"
+                height="1em"
+                width="1em"
+              >
                 <path fill="none" d="M0 0h24v24H0z"></path>
                 <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z"></path>
               </svg>
@@ -522,14 +597,31 @@ function About() {
             </ContactPill>
 
             <ContactPill href="tel:+917905967769">
-              <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 16 16" height="1em" width="1em">
-                <path fillRule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"></path>
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                strokeWidth="0"
+                viewBox="0 0 16 16"
+                height="1em"
+                width="1em"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                ></path>
               </svg>
               +91 7905967769
             </ContactPill>
 
             <ContactPill href="mailto:hadi.88923@gmail.com">
-              <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 20 20" height="1em" width="1em">
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                strokeWidth="0"
+                viewBox="0 0 20 20"
+                height="1em"
+                width="1em"
+              >
                 <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
                 <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
               </svg>
@@ -538,12 +630,16 @@ function About() {
           </ContactGrid>
 
           {/* Magnetic Action */}
-          <motion.div variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}>
+          <motion.div
+            variants={{
+              hidden: { opacity: 0, y: 20 },
+              visible: { opacity: 1, y: 0 },
+            }}
+          >
             <MagneticButton href="mailto:hadi.88923@gmail.com">
               Hire Me
             </MagneticButton>
           </motion.div>
-
         </motion.div>
       </ContentZIndex>
     </AboutWrapper>
